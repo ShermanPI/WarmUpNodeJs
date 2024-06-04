@@ -1,6 +1,6 @@
 # Node.js WarmUp
 
-After some time, I needed to remember some Node.js basics. Here is my WarmUp repository, where I will be putting a checkmark (✅) after completing each exercise.
+After some time, I needed to remember some Node.js basics. Here is my WarmUp repository, where I will be putting a checkmark (✅) after completing each exercise. Feel free to use it as you want, my exercises answers will be on here too. 😁
 
 ## Table of Contents
 
@@ -78,8 +78,6 @@ This repository is a collection of basic Node.js exercises meant to refresh and 
 ### Exercise 9 - File Stats
 - [x] Read the `stat` of all files in a folder passed as an argument (using promises) [done in exercise 8]
 - [x] If an error occurs, exit the process with an error
-- [x] It should have this structure:
-    ![alt text](image-2.png)
 
 ### Exercise 10 - Linter Installation
 - [x] Install the linter as a development dependency (standard)
@@ -87,7 +85,6 @@ This repository is a collection of basic Node.js exercises meant to refresh and 
 ### Exercise 11 - HTTP Server
 - [x] What is HTTP?
     - ✅ => HTTP is a protocol for sending packets over a network, using hypertext as the main means of communication, headers that contain what should arrive and important information about the request, whether it was a POST or a GET, the body of the request, the type of data sent... recipient, this request can also contain a body.
-    ![alt text](image-6.png)
 - [x] Use the native module to create an HTTP server
 - [x] When the server receives a request, terminate it by sending a response that says "Hello World"
 - [x] Set the server to listen on port (0) and print that the server is listening on that port
@@ -102,14 +99,11 @@ This repository is a collection of basic Node.js exercises meant to refresh and 
 - [x] Using the native `net` module:
     - Create a function that tells you if a port you pass is free
     - Create a listener that, when there is an error, returns one that is available
-    ![alt text](image-3.png)
 
 ### Exercise 13 - Enhanced HTTP Server
 - [x] With the HTTP server made in exercise 11, use the function from exercise 11 to find if the port you want to use is available, and if not, set any available port. It should look like this:
-    ![alt text](image-4.png)
 - [x] Print all environment variables of the operating system
 - [x] Use an environment variable for the `desiredPort`, passed from the command line when you run it
-    ![alt text](image-7.png)
 
 ## How to Use
 
@@ -127,7 +121,7 @@ This repository is a collection of basic Node.js exercises meant to refresh and 
     ```
 4. Run the exercises as needed:
     ```bash
-    node exercise1.js
+    node exercise<numberOfTheExercise>.js
     ```
 
 ## Contributing
