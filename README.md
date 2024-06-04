@@ -127,3 +127,5 @@ This repository is a collection of basic Node.js exercises meant to refresh and 
 ## Contributing
 
 Contributions are welcome! If you have suggestions for improvements or additional exercises, feel free to open an issue or submit a pull request.
+
+P.D: special thanks to @midudev
