@@ -121,7 +121,7 @@ This repository is a collection of basic Node.js exercises meant to refresh and 
     ```
 4. Run the exercises as needed:
     ```bash
-    node exercise<numberOfTheExercise>.js
+    npm run exercise<numberOfTheExercise>
     ```
 
 ## Contributing

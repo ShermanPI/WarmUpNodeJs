@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "e1": "node exercise1.mjs",
+    "exercise1": "node exercise1.mjs",
+    "exercise2": "node exercise2.mjs",
+    "exercise3": "node exercise3.mjs",
+    "exercise4": "node exercise4.mjs",
+    "exercise5": "node exercise5.mjs",
+    "exercise6": "node exercise6.mjs",
+    "exercise7": "node exercise7.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
