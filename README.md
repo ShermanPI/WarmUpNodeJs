@@ -30,14 +30,14 @@ This repository is a collection of basic Node.js exercises meant to refresh and 
 
 ## Exercises
 
-### Exercise 1 - Synchronous File Read
-- [ ] Read the information from a file synchronously:
+### Exercise 1 - Synchronous File Read ✅
+- [✅] Read the information from a file synchronously:
     - Check if it is a file,
     - and the size of the file
-- [ ] Read a text file synchronously and print it
+- [✅] Read a text file synchronously and print it
 
 ### Exercise 2 - Asynchronous File Read
-- [ ] Read a file asynchronously and print it
+- [✅] Read a file asynchronously and print it
 
 ### Exercise 3 - Asynchronous File Read with Promises
 - [ ] Read a file asynchronously using a promise
