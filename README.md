@@ -36,18 +36,18 @@ This repository is a collection of basic Node.js exercises meant to refresh and 
     - and the size of the file
 - [✅] Read a text file synchronously and print it
 
-### Exercise 2 - Asynchronous File Read
+### Exercise 2 - Asynchronous File Read ✅
 - [✅] Read a file asynchronously and print it
 
-### Exercise 3 - Asynchronous File Read with Promises
-- [ ] Read a file asynchronously using a promise
+### Exercise 3 - Asynchronous File Read with Promises ✅
+- [✅] Read a file asynchronously using a promise
 
 ### Exercise 4 - System Information
 - [ ] Print important system information:
-    - RAM memory
-    - Processor 
-    - Number of threads
-    - Operating system
+    ✅ - RAM memory 
+    ✅ - Processor 
+    ✅ - Number of threads
+    ✅ - Operating system
 
 ### Exercise 5 - Parallel File Read
 - [ ] Make parallel requests to read two text files
