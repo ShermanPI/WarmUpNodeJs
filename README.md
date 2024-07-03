@@ -42,21 +42,21 @@ This repository is a collection of basic Node.js exercises meant to refresh and 
 ### Exercise 3 - Asynchronous File Read with Promises ✅
 - [✅] Read a file asynchronously using a promise
 
-### Exercise 4 - System Information
-- [ ] Print important system information:
+### Exercise 4 - System Information ✅
+- [✅] Print important system information:
     ✅ - RAM memory 
     ✅ - Processor 
     ✅ - Number of threads
     ✅ - Operating system
 
-### Exercise 5 - Parallel File Read
-- [ ] Make parallel requests to read two text files
+### Exercise 5 - Parallel File Read ✅
+- [✅] Make parallel requests to read two text files
 
 ### Exercise 6 - Path Operations
-- [ ] Print the path separator of your operating system
-    - Join a file path
-    - Print the file name 
-    - Get the file extension
+- [✅] Print the path separator of your operating system
+- [✅] Join a file with a directory, directory: fileDirectory, file: testFileThree.txt:
+    - [✅] Print the file name inside fileDirectory 
+- [✅] Get the file extension of testFileThree.txt
 
 ### Exercise 7 - Directory Read
 - [x] Read a directory
