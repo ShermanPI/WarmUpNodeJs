@@ -58,8 +58,8 @@ This repository is a collection of basic Node.js exercises meant to refresh and 
     - [✅] Print the file name inside fileDirectory 
 - [✅] Get the file extension of testFileThree.txt
 
-### Exercise 7 - Directory Read
-- [x] Read a directory
+### Exercise 7 - Directory Read ✅
+- [x] Read a directory/folder
 
 ### Exercise 8 - Process
 - [x] What is `process`?
