@@ -59,21 +59,25 @@ This repository is a collection of basic Node.js exercises meant to refresh and 
 - [✅] Get the file extension of testFileThree.txt
 
 ### Exercise 7 - Directory Read ✅
-- [x] Read a directory/folder
+- [✅] Read a directory/folder
 
 ### Exercise 8 - Process
-- [x] What is `process`?
+- [✅] What is `process`?
     - ✅=> Process generally refers to the instance of a program execution. When referring to a process, it refers to the actual execution of a program. This process is executed within an operating system environment that provides everything necessary for the program to run, such as environment variables, hardware resources, execution information, etc.
-    - ✅=> In Node.js, we have a global object called `process` that helps us control (such as exiting the process) and obtain information about the execution instance of the program (such as the process ID, the argv of a program, the environment variables in the operating system environment, etc.).
-- [x] Print the console arguments (argv)
-- [x] Exit the process (exit codes: [geeksforgeeks](https://www.geeksforgeeks.org/node-js-exit-codes/)):
-    - Exit the process with an error
-    - Exit the process without an error
-    - When exiting the process, make a callback in that method to indicate that the process is finished
-- [x] Print the current working directory (where the application is running, i.e., where the process is taking place)
-- [x] Print the arguments passed to the console, i.e., the argument vector (argv)
-- [x] Set a temporary environment variable when running a program and print that environment variable
-- [x] Read a directory (like the `ls` command) with the name passed in the argument vector
+    - ✅=> In Node.js, we have a global object called `process` that helps us control (such as exiting the process) and obtain information about the execution instance of the program (such as the process ID, the argv (argument vector) of a program, the environment variables in the operating system environment, etc.).
+
+- [✅] Print the console arguments (argv)
+- [✅] Exit the process (exit codes: [geeksforgeeks](https://www.geeksforgeeks.org/node-js-exit-codes/)):
+    - ✅ Exit the process with an error
+    - ✅ Exit the process without an error
+    - ✅ register an event on process to indicate when the process is finished
+- [✅] Print the current executed file
+- [✅] Print the arguments passed to the console, i.e., the argument vector (argv)
+- [✅] Set a temporary environment variable (a value that is passed within the console) when running a program and print that environment variable
+// NOTE: To pass a temporary environment variable put the name of the varible equals the value before the execute command (i.e. VARIABLE=123 npm run exercise)
+- [✅] Read a directory (like the `ls` command) with the name passed in the argument vector
+
+<!-- Some doc about event emitters https://nodejs.org/en/learn/asynchronous-work/the-nodejs-event-emitter -->
 
 ### Exercise 9 - File Stats
 - [x] Read the `stat` of all files in a folder passed as an argument (using promises) [done in exercise 8]

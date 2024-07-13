@@ -9,6 +9,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 console.log('exercise SEVEN! 7️⃣ \n')
 
 // NOTE: __dirname is not defined in ESmodules 🌶️
+// NOTE: to have the directory name you can use process.argv and 
+//       use the element in index 1 to obtain where is the app executing 🌶️
 
 const fileDirectoryName = 'fileDirectory'
 
