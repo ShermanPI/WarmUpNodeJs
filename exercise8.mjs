@@ -1,5 +1,3 @@
-import {fileURLToPath } from 'url'
-
 console.log('exercise EIGHT! 8️⃣ \n')
 
 const argv = process.argv

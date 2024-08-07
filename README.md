@@ -77,21 +77,24 @@ This repository is a collection of basic Node.js exercises meant to refresh and 
 // NOTE: To pass a temporary environment variable put the name of the varible equals the value before the execute command (i.e. VARIABLE=123 npm run exercise)
 - [✅] Read a directory (like the `ls` command) with the name passed in the argument vector
 
-<!-- Some doc about event emitters https://nodejs.org/en/learn/asynchronous-work/the-nodejs-event-emitter -->
+<!-- Some documentation about event emitters https://nodejs.org/en/learn/asynchronous-work/the-nodejs-event-emitter -->
 
 ### Exercise 9 - File Stats
-- [x] Read the `stat` of all files in a folder passed as an argument (using promises) [done in exercise 8]
-- [x] If an error occurs, exit the process with an error
+- [✅] Read the `stat` of all files in a folder passed as an argument (using promises) [done in exercise 8]
+- [✅] If an error occurs, exit the process with an error [done in exercise 8]
 
 ### Exercise 10 - Linter Installation
-- [x] Install the linter as a development dependency (standard)
+- [✅] Install the linter as a development dependency (standard)
 
 ### Exercise 11 - HTTP Server
-- [x] What is HTTP?
+- [✅] What is HTTP?
     - ✅ => HTTP is a protocol for sending packets over a network, using hypertext as the main means of communication, headers that contain what should arrive and important information about the request, whether it was a POST or a GET, the body of the request, the type of data sent... recipient, this request can also contain a body.
-- [x] Use the native module to create an HTTP server
-- [x] When the server receives a request, terminate it by sending a response that says "Hello World"
-- [x] Set the server to listen on port (0) and print that the server is listening on that port
+- [✅] Use the native module to create an HTTP server
+- [x] When the server receives a request, terminate it by sending a response that says "Hello world"
+- [✅] Set the server to listen on port (8080) and print that the server is listening on that port
+
+<!-- ✅ Good documentation here of http module!: https://nodejs.org/en/learn/modules/anatomy-of-an-http-transaction -->
+<!-- https://chatgpt.com/share/e35a2437-4f6a-417c-85ab-7a3dcb02160f -->
 
 ### Exercise 11.5 - Mini CRUD
 - [x] Create a mini CRUD that allows you to do GET and POST, with responses for 404 and 200
