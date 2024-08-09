@@ -90,7 +90,7 @@ This repository is a collection of basic Node.js exercises meant to refresh and 
 - [✅] What is HTTP?
     - ✅ => HTTP is a protocol for sending packets over a network, using hypertext as the main means of communication, headers that contain what should arrive and important information about the request, whether it was a POST or a GET, the body of the request, the type of data sent... recipient, this request can also contain a body.
 - [✅] Use the native module to create an HTTP server
-- [x] When the server receives a request, terminate it by sending a response that says "Hello world"
+- [✅] When the server receives a request, terminate it by sending a response that says "Hello world"
 - [✅] Set the server to listen on port (8080) and print that the server is listening on that port
 
 <!-- ✅ Good documentation here of http module!: https://nodejs.org/en/learn/modules/anatomy-of-an-http-transaction -->
