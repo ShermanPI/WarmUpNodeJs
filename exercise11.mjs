@@ -1,52 +1,52 @@
 import http from 'node:http'
 
+console.log('Exercise ELEVEN 1️⃣1️⃣')
 
 const PORT = 8080
 
 const httpServer = http.createServer((req, res) => {
-    const reqBody = []
+  const reqBody = []
 
-    const { method, url } = req
+  const { method, url } = req
 
-    console.log(`${method} - http://localhost:${PORT}${url}`)
+  console.log(`${method} - http://localhost:${PORT}${url}`)
 
-    req.on('data', (chunk) => {
-        reqBody.push(chunk)
+  req.on('data', (chunk) => {
+    reqBody.push(chunk)
+  })
+
+  req.on('end', () => {
+    const body = Buffer.concat(reqBody).toString()
+
+    // implicit way to set headers - expecting to nodejs put the headers on the right time before sending data
+    res.statusCode = 200
+    res.setHeader('Content-Type', 'application/json')
+
+    // explicit way to set headers- write the status code and the headers to the stream (writable)
+    res.writeHead(200, {
+      'Content-Type': 'text/html; charset=utf-8'
     })
 
-    req.on('end', () => {
-        const body = Buffer.concat(reqBody).toString()
+    // Sending Response Body - writing with the WritableStream method '.write()'
 
-        // implicit way to set headers - expecting to nodejs put the headers on the right time before sending data
-        res.statusCode = 200
-        res.setHeader('Content-Type', 'application/json')
+    // res.write('<html>')
+    // res.write('<h1>')
+    // res.write('ADIOS MUNDO!!! 🌎🧨💥')
+    // res.write('</h1>')
+    // res.write('</html>')
+    // res.end()
 
-        // explicit way to set headers- write the status code and the headers to the stream (writable)
-        res.writeHead(200, {
-            'Content-`Type': 'text/html; charset=utf-8'
-        })
+    // Sending Response Body - using the optional last bit of data of the stream to simplify the example above
+    res.end(`<html><h1>ADIOS MUNDO!🌎🧨💥</h1> Client body: ${body} </html>`)
+  })
 
-        // Sending Response Body - writing with the WritableStream method '.write()'
-
-        // res.write('<html>')
-        // res.write('<h1>')
-        // res.write('ADIOS MUNDO!!! 🌎🧨💥')
-        // res.write('</h1>')
-        // res.write('</html>')
-        // res.end()
-
-        // Sending Response Body - using the optional last bit of data of the stream to simplify the example above
-        res.end(`<html><h1>ADIOS MUNDO!🌎🧨💥</h1> Client body: ${body} </html>`)
-    })
-
-    req.on('error', (error) => {
-        console.log('An error ocurred in the Petition: ', error)
-    })
-
+  req.on('error', (error) => {
+    console.log('An error ocurred in the Petition: ', error)
+  })
 })
 
 httpServer.listen(8080, () => {
-    console.log(`Http server listening on: http://localhost:${PORT}/`)
+  console.log(`Http server listening on: http://localhost:${PORT}/`)
 })
 
 // ✅ Good documentation here of http module!: https://nodejs.org/en/learn/modules/anatomy-of-an-http-transaction

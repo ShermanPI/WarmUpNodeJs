@@ -96,18 +96,23 @@ This repository is a collection of basic Node.js exercises meant to refresh and 
 <!-- ✅ Good documentation here of http module!: https://nodejs.org/en/learn/modules/anatomy-of-an-http-transaction -->
 <!-- https://chatgpt.com/share/e35a2437-4f6a-417c-85ab-7a3dcb02160f -->
 
-### Exercise 11.5 - Mini CRUD
-- [x] Create a mini CRUD that allows you to do GET and POST, with responses for 404 and 200
-- [x] Use the `url` object to separate the requests
+### Exercise 12 - Mini CRUD
+- [✅] Create an echo server, try using the ReadableStream.pipe() to send back a response
 
-### Exercise 12 - Net Server
+<!-- note: an echo server is an application that allows a client and a server to connect so a client can send a message to the server and the server can receive the message and send, or echo, it back to the client. -->
+
+
+### Exercise 13 - Mini CRUD
+- [x] Create a mini CRUD that allows you to do GET and POST, with responses for 404 and 200
+
+### Exercise 14 - Net Server
 - [x] What is a `net` server?
     - It is a server that uses TCP but does not have the same rules as an HTTP server.
 - [x] Using the native `net` module:
     - Create a function that tells you if a port you pass is free
     - Create a listener that, when there is an error, returns one that is available
 
-### Exercise 13 - Enhanced HTTP Server
+### Exercise 15 - Enhanced HTTP Server
 - [x] With the HTTP server made in exercise 11, use the function from exercise 11 to find if the port you want to use is available, and if not, set any available port. It should look like this:
 - [x] Print all environment variables of the operating system
 - [x] Use an environment variable for the `desiredPort`, passed from the command line when you run it
