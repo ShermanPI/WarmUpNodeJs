@@ -103,7 +103,7 @@ This repository is a collection of basic Node.js exercises meant to refresh and 
 
 
 ### Exercise 13 - Mini CRUD
-- [x] Create a mini CRUD that allows you to do GET and POST, with responses for 404 and 200
+- [x] Create an api that allows you to do GET and POST and put the post body in a file, with responses for 404 and 200
 
 ### Exercise 14 - Net Server
 - [x] What is a `net` server?
