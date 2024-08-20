@@ -17,6 +17,7 @@
     "exercise11": "node exercise11.mjs",
     "exercise12": "node exercise12.mjs",
     "exercise13": "node exercise13.mjs",
+    "exercise14": "node exercise14.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
