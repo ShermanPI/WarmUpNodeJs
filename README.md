@@ -116,9 +116,9 @@ This repository is a collection of basic Node.js exercises meant to refresh and 
     - ✅ Create a listener that, when there is an error (EADDRINUSE), returns one that is available
 
 ### Exercise 15 - Enhanced HTTP Server
-- [x] With the HTTP server made in exercise 13, use the function from exercise 11 to find if the port you want to use is available, and if not, set any available port
-- [x] Print all environment variables of the operating system (optional)
-- [x] Use an environment variable for the `desiredPort`, passed from the command line when you run it
+- [✅] With the HTTP server made in exercise 13, use the function from exercise 11 to find if the port you want to use is available, and if not, set any available port
+- [✅] Print all environment variables of the operating system (optional)
+- [✅] Use an environment variable for the `desiredPort`, passed from the command line when you run it
 
 ## How to Use
 

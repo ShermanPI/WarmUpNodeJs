@@ -1,9 +1,7 @@
 import net from 'node:net'
 console.log('Exercise Fourteen 1️⃣4️⃣')
 
-const PORT = 8080
-
-const checkIfPortIsAvailable = async (desiredPort) => {
+export const findAvailablePort = async (desiredPort) => {
   const portPromise = new Promise((resolve) => {
     const netServer = net.createServer()
 
@@ -11,17 +9,17 @@ const checkIfPortIsAvailable = async (desiredPort) => {
 
     netServer.on('error', (error) => {
       if (error.code === 'EADDRINUSE') {
-        resolve(false)
+        console.log(`Is port ${desiredPort} available?: NO`)
+        resolve(0)
       }
     })
 
     netServer.on('listening', () => {
       netServer.close()
-      resolve(true)
+      console.log(`Is port ${desiredPort} available?: YES`)
+      resolve(desiredPort)
     })
   })
 
   return portPromise
 }
-
-console.log(`Is port ${PORT} available?:`, await checkIfPortIsAvailable(PORT))
